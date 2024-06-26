@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container{
+	background-color:rgba(57,181,74,0.75);
+	background-blend-mode:multiply;
+	background-image: url("Images SwiftMart/oranges.jpg");
+	background-repeat:no-repeat;
+	background-size:auto;
+	margin:-10px;
+}
+
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+	background-color:#000;
+}
+
+h1{
+	font-family:berkshire swash, serif;
+	color:#fff;
+	padding:10px;
+	font-size:3em;
+}
+
+h1 img{
+	margin:0;
+	width:1em;
+}
+
+img{
+	border-radius:1%;
+	margin-right:1em;
+}
+nav ul{
+	display:inline-flex;
+	list-style-type:none;
+	font-size: 1.5em;
+}
+
+aside ul{
+	display:inline-flex;
+	list-style-type:none;
+}
+aside li{
+	padding-right:0.5em;
+}
+
+.imgbanner ul{
+	vertical-align:center;
+}
+
+.imgbanner li{
+	padding:1%;
+	width:30%;
+	display:inline-flex;
+}
+
+a, a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#39B54A;
+}
+
+h2{
+	text-align: center;
+	color:#fff;
+	font-size:1.55em;
+}
+
+h3{
+	font-size:1.45em;
+	margin-bottom:0;
+}
+
+h4{
+	margin:0px;
+	font-size:1.35em;
+}
+
+h5{
+	margin:0;
+}
+h3, h5{
+	text-align:center;
+	color:#000;
+}
+
+aside{
+	Background-color:#fff;
+	padding: 0.10em;
+	margin-right:-20%;
+	margin-left:-20%;
+	display: flex;
+	justify-content: center;
+	color: #39B54A
+}
+
+p{
+	font-size:1.25em;
+	margin-bottom:0;
+	margin-top:0;
+}
+
+main{	
+	margin-top:3em;
+	width:75%;
+	margin:auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#mission{
+	background-color:#39B54A;
+	Padding: 5%;
+	color:#fff;
+}
+
+#small{
+	background-color:#39B54A;
+	Padding: 5%;
+	color:#fff;
+	display:inline-block;
+}
+
+
+section img{
+	float:left;
+	margin-bottom:10px;
+}
+
+section{
+	display:inline-block;
+}
+
+footer{
+	background-color:#000000;
+	color:#fff;
+	padding:5px;
+	height: 300px;
+}
+
+footer p{
+	padding-left:20px;
+}
+
+footer a{
+	float:right;
+}
+
+#end{
+	clear:both;
+}
+
+.single{
+	display:none;
+}
+
+/*I will be using the same media query for both phone & tablet in this case.*/
+@media (max-width:700px){
+	nav ul{
+		display:revert;
+		padding-bottom:1em;
+	}
+	header{
+		text-align:center;
+		padding-bottom:0.25em;
+		padding-top:0.5em;
+	}
+	
+	aside ul{
+		display:revert;
+	}
+	aside li{
+		padding:0.3em;
+	}
+	#sec{
+		float:none;
+		clear:both;
+	}
+	section img{
+		float:none;
+		width:100%;
+	}
+	.imgbanner li{
+		display:none;
+	}
+	.single{
+		display:revert;
+	}
+}
+
+
+
+
+
